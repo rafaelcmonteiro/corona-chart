@@ -40,9 +40,8 @@ Após clonar o repositório na sua maquina, siga o passo a passo:
 
 * Crie o virtual environment.
 * Rode o código abaixo com o virtual environment ativado.
-
     
-    pip install -r requirements.txt
+> pip install -r requirements.txt
 
 * Após esses passos o programa estará diponivel para teste na sua maquina. 
 
@@ -52,7 +51,6 @@ Caso queira utilizar dados próprios recomendo que siga o seguinte:
     
     x = [1, 2, 3, 4, 5, 6, 7]
     y = [1, 2, 3, 4, 5, 6, 7]
-
     
 O gráfico resultante dos dados acima é uma reta na diagonal, então caso queira fazer seu próprio gráfico recomendo fazer algo parecido.
 
@@ -64,12 +62,12 @@ Passo a passo:
 * Essa função def deve chamar duas outras funções:
 
 
-    result = plot_logic.draw_diagonal(x, y)
-    x = result['label_x']
-    y = result['label_y']
-    html_x = result['pontos']
-    html = making_html.drawing_html(x, y, html_x)
-    making_html.save_html(nome_do_arquivo, html)
+> result = plot_logic.draw_diagonal(x, y)\
+> x = result['label_x']\
+> y = result['label_y']\
+> html_x = result['pontos']\
+> html = making_html.drawing_html(x, y, html_x)\
+> making_html.save_html(nome_do_arquivo, html)
     
     
 <b>draw_diagonal()</b> é uma função que fica dentro do arquivo <b>plot_logic.py</b>, sua principal tarefa é formar pares de pontos,\
