@@ -63,10 +63,8 @@ Passo a passo:
 * Essa função def deve chamar duas outras funções:
 
 
-    # result é um dicionário
     result = plot_logic.draw_diagonal(x, y)
     
-    # Pegadno x, y e pontos.
     x = result['label_x']
     y = result['label_y']
     html_x = result['pontos']
@@ -75,11 +73,9 @@ Passo a passo:
     
     making_html.save_html(nome_do_arquivo, html)
     
-#### Principais funções
-
 <b>draw_diagonal()</b> é uma função que fica dentro do arquivo <b>plot_logic.py</b>, sua principal tarefa é formar pares de pontos,\
 que posteriormente serão desenhados no grafico através da função <b>drawing_html()</b> que fica no arquivo <b>making_html</b>
-
+   
 * label_x = representam os nomes que ficarão ao longo do eixo x.
 * label_y = nomes que ficarão ao longo do eixo y.
 * pontos = são os pontos a serem ligados pelo html.
