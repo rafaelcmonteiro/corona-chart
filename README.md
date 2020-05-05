@@ -65,13 +65,10 @@ Passo a passo:
 
 
     result = plot_logic.draw_diagonal(x, y)
-    
     x = result['label_x']
     y = result['label_y']
     html_x = result['pontos']
-    
     html = making_html.drawing_html(x, y, html_x)
-    
     making_html.save_html(nome_do_arquivo, html)
     
     
