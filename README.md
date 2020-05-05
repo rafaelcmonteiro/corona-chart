@@ -52,6 +52,7 @@ Caso queira utilizar dados próprios recomendo que siga o seguinte:
     
     x = [1, 2, 3, 4, 5, 6, 7]
     y = [1, 2, 3, 4, 5, 6, 7]
+
     
 O gráfico resultante dos dados acima é uma reta na diagonal, então caso queira fazer seu próprio gráfico recomendo fazer algo parecido.
 
@@ -72,6 +73,7 @@ Passo a passo:
     html = making_html.drawing_html(x, y, html_x)
     
     making_html.save_html(nome_do_arquivo, html)
+    
     
 <b>draw_diagonal()</b> é uma função que fica dentro do arquivo <b>plot_logic.py</b>, sua principal tarefa é formar pares de pontos,\
 que posteriormente serão desenhados no grafico através da função <b>drawing_html()</b> que fica no arquivo <b>making_html</b>
